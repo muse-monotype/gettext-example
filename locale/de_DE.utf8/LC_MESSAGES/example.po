@@ -1,7 +1,9 @@
+#: example.php:32
 msgid ""
 msgstr ""
 "Project-Id-Version: Lingohub 1.0.1\n"
-"Report-Msgid-Bugs-To: support@lingohub.com \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-29 22:50+0000\n"
 "Last-Translator: Marko Bošković <marko@lingohub.com>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -9,18 +11,29 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+#: example.php:27
 msgid "Let’s make the web multilingual."
 msgstr "Machen wir das Internet mehrsprachig."
 
-msgid "We connect developers and translators around the globe "
-"on Lingohub for a fantastic localization experience."
-msgstr "Wir verbinden Entwickler mit Übersetzern weltweit "
-"auf Lingohub für ein fantastisches Lokalisierungs-Erlebnis."
+#: example.php:28
+msgid "Adding new line of text."
+msgstr ""
 
+#: example.php:29
+#, php-format
 msgid "Welcome back, %1$s! Your last visit was on %2$s"
 msgstr "Willkommen zurück, %1$s! Dein letzter Besuch war am %2$s"
 
+#: example.php:34 example.php:35
+#, php-format
 msgid "%d page read."
 msgid_plural "%d pages read."
 msgstr[0] "Eine Seite wurde gelesen."
 msgstr[1] "%d Seiten wurden gelesen."
+
+#~ msgid ""
+#~ "We connect developers and translators around the globe on Lingohub for a "
+#~ "fantastic localization experience."
+#~ msgstr ""
+#~ "Wir verbinden Entwickler mit Übersetzern weltweit auf Lingohub für ein "
+#~ "fantastisches Lokalisierungs-Erlebnis."

@@ -25,6 +25,7 @@
   $user = "TestUser";
   // _() is an alias of gettext()
   echo _("Let’s make the web multilingual.");
+  echo _("Adding new line of text.");
   echo sprintf(_('Welcome back, %1$s! Your last visit was on %2$s'), $user, strftime('%A'));
   // dgettext() is similar to _(), but it also accepts a domain name if a string from
   // a domain other the one set by textdomain() needs to be displayed
