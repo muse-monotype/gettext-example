@@ -1,9 +1,9 @@
-#: example.php:32
+#: example.php:31
 msgid ""
 msgstr ""
 "Project-Id-Version: Lingohub 1.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-29 22:50+0000\n"
+"POT-Creation-Date: 2017-03-30 13:26+0000\n"
 "PO-Revision-Date: 2017-03-29 22:52+0000\n"
 "Last-Translator: Weblate Admin <noreply@weblate.org>\n"
 "Language-Team: German <http://example.com/projects/myfontstest/example/de/>\n"
@@ -15,24 +15,30 @@ msgstr ""
 "X-Generator: Weblate 2.12\n"
 
 #: example.php:27
-msgid "Let’s make the web multilingual."
+#, fuzzy
+msgid "Let’s make the web multilingual!"
 msgstr "Machen wir das Internet mehrsprachig."
 
 #: example.php:28
-msgid "Adding new line of text."
-msgstr "Neue Textzeile eingefügt."
-
-#: example.php:29
 #, php-format
 msgid "Welcome back, %1$s! Your last visit was on %2$s"
 msgstr "Willkommen zurück, %1$s! Dein letzter Besuch war am %2$s"
 
-#: example.php:34 example.php:35
+#: example.php:33 example.php:34
 #, php-format
 msgid "%d page read."
 msgid_plural "%d pages read."
 msgstr[0] "Eine Seite wurde gelesen."
 msgstr[1] "%d Seiten wurden gelesen."
+
+#: example.php:35
+msgid "Adding new line of text."
+msgstr "Neue Textzeile eingefügt."
+
+#: example.php:36
+#, fuzzy
+msgid "Adding another line of text."
+msgstr "Neue Textzeile eingefügt."
 
 #~ msgid ""
 #~ "We connect developers and translators around the globe on Lingohub for a "

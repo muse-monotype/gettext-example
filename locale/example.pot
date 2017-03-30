@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#: example.php:32
+#: example.php:31
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-29 22:50+0000\n"
+"POT-Creation-Date: 2017-03-30 13:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,21 +20,25 @@ msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
 #: example.php:27
-msgid "Let’s make the web multilingual."
+msgid "Let’s make the web multilingual!"
 msgstr ""
 
 #: example.php:28
-msgid "Adding new line of text."
-msgstr ""
-
-#: example.php:29
 #, php-format
 msgid "Welcome back, %1$s! Your last visit was on %2$s"
 msgstr ""
 
-#: example.php:34 example.php:35
+#: example.php:33 example.php:34
 #, php-format
 msgid "%d page read."
 msgid_plural "%d pages read."
 msgstr[0] ""
 msgstr[1] ""
+
+#: example.php:35
+msgid "Adding new line of text."
+msgstr ""
+
+#: example.php:36
+msgid "Adding another line of text."
+msgstr ""
