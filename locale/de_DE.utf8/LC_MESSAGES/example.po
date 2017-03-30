@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Lingohub 1.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-30 13:26+0000\n"
-"PO-Revision-Date: 2017-03-29 22:52+0000\n"
+"PO-Revision-Date: 2017-03-30 13:31+0000\n"
 "Last-Translator: Weblate Admin <noreply@weblate.org>\n"
 "Language-Team: German <http://example.com/projects/myfontstest/example/de/>\n"
 "Language: de_DE\n"
@@ -15,9 +15,8 @@ msgstr ""
 "X-Generator: Weblate 2.12\n"
 
 #: example.php:27
-#, fuzzy
 msgid "Let’s make the web multilingual!"
-msgstr "Machen wir das Internet mehrsprachig."
+msgstr "Machen wir das Internet mehrsprachig!"
 
 #: example.php:28
 #, php-format
@@ -36,9 +35,8 @@ msgid "Adding new line of text."
 msgstr "Neue Textzeile eingefügt."
 
 #: example.php:36
-#, fuzzy
 msgid "Adding another line of text."
-msgstr "Neue Textzeile eingefügt."
+msgstr "Noch eine Textzeile eingefügt."
 
 #~ msgid ""
 #~ "We connect developers and translators around the globe on Lingohub for a "
