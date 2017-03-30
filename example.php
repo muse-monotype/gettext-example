@@ -24,12 +24,12 @@
   #bind_textdomain_codeset($domain2, 'UTF-8');
   $user = "TestUser";
   // _() is an alias of gettext()
-  echo _("Let’s make the web multilingual.");
-  echo _("Adding new line of text.");
-  echo sprintf(_('Welcome back, %1$s! Your last visit was on %2$s'), $user, strftime('%A'));
+  echo "<h1>"._("Let’s make the web multilingual.")."</h1>";
+  echo "<p>".sprintf(_('Welcome back, %1$s! Your last visit was on %2$s'), $user, strftime('%A'))."</p>";
   // dgettext() is similar to _(), but it also accepts a domain name if a string from
   // a domain other the one set by textdomain() needs to be displayed
   echo dgettext("example2", "");
   // ngettext() is used when the plural form of the message is dependent on the count
-  echo ngettext("%d page read.", "%d pages read.", 1); //outputs a form used for singular
-  echo ngettext("%d page read.", "%d pages read.", 15); //outputs a form used when the count is 15
+  echo "<p>".ngettext("%d page read.", "%d pages read.", 1)."</p>"; //outputs a form used for singular
+  echo "<p>".ngettext("%d page read.", "%d pages read.", 15)."</p>"; //outputs a form used when the count is 15
+  echo "<p>"._("Adding new line of text.")."</p>";
